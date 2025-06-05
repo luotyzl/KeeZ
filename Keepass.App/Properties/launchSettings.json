@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Keepass.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Keepass.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
