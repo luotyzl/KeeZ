@@ -14,6 +14,9 @@
     </Window.SystemBackdrop>
 
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
+            <Button x:Name="OpenFileButton" Content="Open KeePass DB" Click="OpenFileButton_Click" Width="200"/>
+            <TextBlock x:Name="SelectedFilePath" Text="No file selected." TextWrapping="Wrap" TextAlignment="Center" Width="300"/>
+        </StackPanel>
     </Grid>
 </Window>

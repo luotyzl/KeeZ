@@ -3,3 +3,5 @@ Keepass.App/obj
 Keepass.App/.vs
 .vs
 .idea
+**/obj
+**/bin
