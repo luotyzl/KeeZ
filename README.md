@@ -1,6 +1,6 @@
-# Keepass.Win
+# KeeZ
 
-- Win UI 3 Project to manage keepass database
+- WPF with WebView2 Project to manage keepass database
 
 ## Environment
 1. Net 8 SDK
