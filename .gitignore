@@ -5,3 +5,4 @@ Keepass.App/.vs
 .idea
 **/obj
 **/bin
+*.user

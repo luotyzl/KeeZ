@@ -12,12 +12,11 @@ public static class ConfigManager
     private static readonly string AppName = Assembly.GetEntryAssembly()?.GetName().Name ?? "KeeZ";
     private static readonly byte[] EncryptionKey = GetEncryptionKey();
     private static readonly byte[] InitializationVector = new byte[16];
-    private static string SettingsFolderPath => Path.Combine(
-        Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
+    public static string AppFolderPath => Path.Combine(
+        Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
         AppName);
-
     private static string SettingsFilePath => Path.Combine(
-        SettingsFolderPath,
+        AppFolderPath,
         "user.settings.json");
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
@@ -91,7 +90,7 @@ public static class ConfigManager
                 }
             }
 
-            Directory.CreateDirectory(SettingsFolderPath);
+            Directory.CreateDirectory(AppFolderPath);
             string json = JsonSerializer.Serialize(settingsToSave, JsonOptions);
             File.WriteAllText(SettingsFilePath, json);
         }
@@ -111,7 +110,7 @@ public static class ConfigManager
         {
             if (!File.Exists(SettingsFilePath))
             {
-                Directory.CreateDirectory(SettingsFolderPath);
+                Directory.CreateDirectory(AppFolderPath);
                 var defaultSettings = new T();
                 SaveSettings(new T());
                 return defaultSettings;

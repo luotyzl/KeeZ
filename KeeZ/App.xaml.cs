@@ -23,9 +23,10 @@ public partial class App : Application
                     .MinimumLevel.Debug()
                     .WriteTo
                     .File(
-                        "Logs/log-.txt",
+                        path: System.IO.Path.Combine(ConfigManager.AppFolderPath,"log-.txt"),
                         rollingInterval: RollingInterval.Day,
                         retainedFileCountLimit: 7,
+                        fileSizeLimitBytes:1024 * 10,
                         outputTemplate: "{Timestamp:HH:mm:ss} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
                     );
             })
