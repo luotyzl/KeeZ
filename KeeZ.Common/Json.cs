@@ -1,14 +1,14 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Keepass.Common;
+namespace KeeZ.Common;
 
 public static class Json
 {
     public static T? Deserialize<T>(string json)
     {
         if (string.IsNullOrWhiteSpace(json)) return default;
-        T? result = JsonSerializer.Deserialize<T>(json, new JsonSerializerOptions
+        var result = JsonSerializer.Deserialize<T>(json, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true,
             Converters = {
