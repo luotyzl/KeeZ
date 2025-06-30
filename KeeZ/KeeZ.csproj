@@ -6,9 +6,12 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
+        <LangVersion>12</LangVersion>
+        <ApplicationIcon>favicon.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="2.0.1" />
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.6" />
       <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3296.44" />
       <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
@@ -19,6 +22,13 @@
     <ItemGroup>
       <ProjectReference Include="..\KeeZ.Common\KeeZ.Common.csproj" />
       <ProjectReference Include="..\KeeZ.Models\KeeZ.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="favicon.ico" />
+      <Content Include="favicon.ico">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
