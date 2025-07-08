@@ -1,3 +1,4 @@
+using System.IO;
 using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
@@ -5,7 +6,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using KeeZ.Models;
 
-namespace KeeZ.Common;
+namespace KeeZ.Services;
 
 public static class ConfigManager
 {

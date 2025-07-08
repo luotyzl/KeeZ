@@ -1,6 +1,6 @@
 ﻿namespace KeeZ.Models;
 
-public class UserSettings
+public class UserConfiguration
 {
     public string LastOpenedFilePath { get; set; } = "";
     public string WebDavPath { get; set; } = "";

@@ -1,15 +1,7 @@
 ﻿using System.Drawing;
-using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Forms;
+using Wpf.Ui;
 using Application = System.Windows.Application;
 
 namespace KeeZ;
@@ -17,26 +9,26 @@ namespace KeeZ;
 /// <summary>
 /// Interaction logic for MainWindow.xaml
 /// </summary>
-public partial class MainWindow : Window
+public partial class MainWindow : INavigationWindow
 {
     public MainWindow()
     {
         InitializeComponent();
-        InitializeWebView();
+        // InitializeWebView();
         InitializeSystemTray();
     }
     
-    private async void InitializeWebView()
-    {
-        try
-        {
-            await Browser.EnsureCoreWebView2Async(null);
-        }
-        catch
-        {
-            //ignore
-        }
-    }
+    // private async void InitializeWebView()
+    // {
+    //     try
+    //     {
+    //         await Browser.EnsureCoreWebView2Async(null);
+    //     }
+    //     catch
+    //     {
+    //         //ignore
+    //     }
+    // }
     
     private NotifyIcon _notifyIcon;
     private void InitializeSystemTray()

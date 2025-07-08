@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace KeeZ.Common;
+namespace KeeZ.Helpers;
 
 public static class Json
 {
