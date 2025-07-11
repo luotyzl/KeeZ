@@ -2,6 +2,8 @@
 using System.Windows;
 using System.Windows.Forms;
 using Wpf.Ui;
+using Wpf.Ui.Abstractions;
+using Wpf.Ui.Controls;
 using Application = System.Windows.Application;
 
 namespace KeeZ;
@@ -15,7 +17,6 @@ public partial class MainWindow : INavigationWindow
     {
         InitializeComponent();
         // InitializeWebView();
-        InitializeSystemTray();
     }
     
     // private async void InitializeWebView()
@@ -30,50 +31,42 @@ public partial class MainWindow : INavigationWindow
     //     }
     // }
     
-    private NotifyIcon _notifyIcon;
-    private void InitializeSystemTray()
+
+    public INavigationView GetNavigation()
     {
-        _notifyIcon = new NotifyIcon
-        {
-            Icon = new Icon("favicon.ico"), // Your icon file
-            Text = "KeeZ",
-            Visible = true
-        };
-        
-        // Add context menu
-        var contextMenu = new ContextMenuStrip();
-        contextMenu.Items.Add("Show", null, (s, e) => ShowWindow());
-        contextMenu.Items.Add("Exit", null, (s, e) => ExitApplication());
-        _notifyIcon.ContextMenuStrip = contextMenu;
-        
-        // Double click to show window
-        _notifyIcon.DoubleClick += (s, e) => ShowWindow();
-        
-        // Handle window closing to minimize to tray instead
-        Closing += (s, e) =>
-        {
-            e.Cancel = true;
-            HideWindow();
-        };
+        throw new NotImplementedException();
     }
-    private void HideWindow()
+
+    public bool Navigate(Type pageType)
     {
-        Hide();
+        throw new NotImplementedException();
     }
-    private void ExitApplication()
+
+    public void SetServiceProvider(IServiceProvider serviceProvider)
     {
-        _notifyIcon.Dispose();
-        Application.Current.Shutdown();
+        throw new NotImplementedException();
     }
+
+    public void SetPageService(INavigationViewPageProvider navigationViewPageProvider)
+    {
+        throw new NotImplementedException();
+    }
+
+    void INavigationWindow.ShowWindow()
+    {
+        ShowWindow();
+    }
+
+    public void CloseWindow()
+    {
+        throw new NotImplementedException();
+    }
+
     private void ShowWindow()
     {
         Show();
         WindowState = WindowState.Normal;
         Activate();
     }
-    protected override void OnClosed(EventArgs e)
-    {
-        _notifyIcon?.Dispose();
-        base.OnClosed(e);
-    }
+
 }

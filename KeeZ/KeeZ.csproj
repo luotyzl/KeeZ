@@ -7,7 +7,6 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
         <LangVersion>12</LangVersion>
-        <ApplicationIcon>favicon.ico</ApplicationIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -21,9 +20,6 @@
       <PackageReference Include="WPF-UI.Tray" Version="4.0.3" />
     </ItemGroup>
 
-    <ItemGroup>
-      <None Remove="favicon.ico" />
-    </ItemGroup>
 
     <ItemGroup>
       <Content Update="Assets\Images\logo.ico">
