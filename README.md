@@ -1,7 +1,4 @@
 # KeeZ
 
-- WPF with WebView2 Project to manage keepass database
+This Project is based on [irihitech/Ursa.Avalonia](https://github.com/irihitech/Ursa.Avalonia) 
 
-## Environment
-1. Net 8 SDK
-2. Rider/VS 2022
