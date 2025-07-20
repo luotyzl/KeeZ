@@ -1,7 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <Import Project="../Package.props"/>
-
+    
     <PropertyGroup>
         <TargetFrameworks>netstandard2.0;net8</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -14,7 +12,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)"/>
+        <PackageReference Include="Avalonia" Version="11.3.2"/>
         <PackageReference Include="Irihi.Avalonia.Shared" Version="0.3.0" />
         <PackageReference Include="Irihi.Avalonia.Shared.Contracts" Version="0.3.0" />
     </ItemGroup>
