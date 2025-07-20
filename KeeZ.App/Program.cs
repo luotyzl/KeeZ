@@ -3,7 +3,7 @@ using Avalonia;
 using Avalonia.Dialogs;
 using Avalonia.Media;
 
-namespace Ursa.Demo.Desktop;
+namespace KeeZ.App;
 
 class Program
 {
@@ -26,7 +26,7 @@ class Program
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp()
-        => AppBuilder.Configure<App>()
+        => AppBuilder.Configure<Ursa.Demo.App>()
             .UseManagedSystemDialogs()
             .UsePlatformDetect()
             .With(new Win32PlatformOptions())

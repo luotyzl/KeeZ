@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa.Themes.Semi", "Ursa.Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa.Demo", "KeeZ.WPF\Ursa.Demo.csproj", "{AA9F4E34-3A3D-4B8A-977E-AD31B1F4F480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa.Demo.Desktop", "KeeZ.App\Ursa.Demo.Desktop.csproj", "{F6387E52-F766-4484-AC6E-6C7554041E8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.App", "KeeZ.App\KeeZ.App.csproj", "{F6387E52-F766-4484-AC6E-6C7554041E8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
