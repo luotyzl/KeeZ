@@ -3,7 +3,7 @@ using System.Windows.Input;
 using Avalonia.Collections;
 using CommunityToolkit.Mvvm.Input;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public class PaginationDemoViewModel : ViewModelBase
 {

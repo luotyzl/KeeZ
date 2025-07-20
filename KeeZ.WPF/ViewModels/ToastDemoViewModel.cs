@@ -4,7 +4,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Ursa.Controls;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public partial class ToastDemoViewModel : ObservableObject
 {

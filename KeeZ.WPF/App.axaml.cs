@@ -2,10 +2,10 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using Ursa.Demo.ViewModels;
-using Ursa.Demo.Views;
+using KeeZ.WPF.ViewModels;
+using KeeZ.WPF.Views;
 
-namespace Ursa.Demo;
+namespace KeeZ.WPF;
 
 public partial class App : Application
 {

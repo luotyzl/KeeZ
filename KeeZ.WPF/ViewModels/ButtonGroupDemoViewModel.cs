@@ -4,7 +4,7 @@ using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
 using Ursa.Controls;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public class ButtonGroupDemoViewModel: ViewModelBase
 {

@@ -4,7 +4,7 @@ using Avalonia.Controls.Templates;
 using Avalonia.Media;
 using Ursa.Controls;
 
-namespace Ursa.Demo.TemplateSelectors;
+namespace KeeZ.WPF.TemplateSelectors;
 
 public class TimelineIconTemplateSelector: ResourceDictionary, IDataTemplate
 {

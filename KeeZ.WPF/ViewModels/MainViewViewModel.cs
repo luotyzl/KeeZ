@@ -9,7 +9,7 @@ using Ursa.Themes.Semi;
 using Notification = Ursa.Controls.Notification;
 using WindowNotificationManager = Ursa.Controls.WindowNotificationManager;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public partial class MainViewViewModel : ViewModelBase
 {

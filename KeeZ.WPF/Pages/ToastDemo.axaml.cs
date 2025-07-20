@@ -1,9 +1,9 @@
 ﻿using Avalonia;
 using Avalonia.Controls;
+using KeeZ.WPF.ViewModels;
 using Ursa.Controls;
-using Ursa.Demo.ViewModels;
 
-namespace Ursa.Demo.Pages;
+namespace KeeZ.WPF.Pages;
 
 public partial class ToastDemo : UserControl
 {

@@ -2,7 +2,7 @@ using System;
 using System.Net;
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public partial class IPv4BoxDemoViewModel: ObservableObject
 {

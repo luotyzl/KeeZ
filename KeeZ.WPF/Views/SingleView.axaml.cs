@@ -1,7 +1,7 @@
 using Avalonia.Controls;
 using Ursa.Controls;
 
-namespace Ursa.Demo.Views;
+namespace KeeZ.WPF.Views;
 
 public partial class SingleView : UrsaView
 {

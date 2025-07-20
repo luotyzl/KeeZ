@@ -2,10 +2,10 @@
 using Avalonia.Controls.Primitives;
 using Avalonia.Controls.Templates;
 using Avalonia.Data;
+using KeeZ.WPF.ViewModels;
 using Ursa.Controls;
-using Ursa.Demo.ViewModels;
 
-namespace Ursa.Demo.Converters;
+namespace KeeZ.WPF.Converters;
 
 public class ToolBarItemTemplateSelector: IDataTemplate
 {

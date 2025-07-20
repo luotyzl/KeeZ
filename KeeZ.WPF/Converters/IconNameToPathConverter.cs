@@ -4,7 +4,7 @@ using Avalonia;
 using Avalonia.Data.Converters;
 using Avalonia.Media;
 
-namespace Ursa.Demo.Converters;
+namespace KeeZ.WPF.Converters;
 
 public class IconNameToPathConverter: IValueConverter
 {

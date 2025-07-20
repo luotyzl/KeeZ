@@ -5,7 +5,7 @@ using CommunityToolkit.Mvvm.Input;
 using Notification = Ursa.Controls.Notification;
 using WindowNotificationManager = Ursa.Controls.WindowNotificationManager;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public partial class NotificationDemoViewModel : ObservableObject
 {

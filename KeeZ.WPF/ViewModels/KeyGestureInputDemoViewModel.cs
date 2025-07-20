@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Avalonia.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public class KeyGestureInputDemoViewModel: ObservableObject
 {

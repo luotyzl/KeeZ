@@ -2,9 +2,9 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
-using Ursa.Demo.ViewModels;
+using KeeZ.WPF.ViewModels;
 
-namespace Ursa.Demo.Pages;
+namespace KeeZ.WPF.Pages;
 
 public partial class AboutUsDemo : UserControl
 {

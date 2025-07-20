@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
         <!--If you are willing to use Windows/MacOS native APIs you will need to create 3 projects.
@@ -16,7 +16,7 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <TrimmerRootAssembly Include="Ursa.Demo" />
+        <TrimmerRootAssembly Include="KeeZ.WPF" />
     </ItemGroup>
 
     <ItemGroup>
@@ -26,6 +26,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\KeeZ.WPF\KeeZ.WPF.csproj" />
+        <ProjectReference Include="..\KeeZ.WPF\KeeZ.WPF.csproj"/>
     </ItemGroup>
 </Project>

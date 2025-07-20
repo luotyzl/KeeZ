@@ -8,7 +8,7 @@ using Avalonia.VisualTree;
 using Ursa.Controls;
 using WindowNotificationManager = Ursa.Controls.WindowNotificationManager;
 
-namespace Ursa.Demo.Dialogs;
+namespace KeeZ.WPF.Dialogs;
 
 public partial class CustomDemoDialog : UserControl
 {

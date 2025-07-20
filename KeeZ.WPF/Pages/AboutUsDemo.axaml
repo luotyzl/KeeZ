@@ -4,11 +4,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:collections="clr-namespace:Avalonia.Collections;assembly=Avalonia.Base"
              xmlns:iri="https://irihi.tech/shared"
-             xmlns:viewModels="clr-namespace:Ursa.Demo.ViewModels"
+             xmlns:viewModels="clr-namespace:KeeZ.WPF.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800"
              d:DesignHeight="450"
              x:DataType="viewModels:AboutUsDemoViewModel"
-             x:Class="Ursa.Demo.Pages.AboutUsDemo">
+             x:Class="KeeZ.WPF.Pages.AboutUsDemo">
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.ThemeDictionaries>

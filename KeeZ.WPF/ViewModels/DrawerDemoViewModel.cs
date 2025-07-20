@@ -3,12 +3,12 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using KeeZ.WPF.Dialogs;
 using Ursa.Common;
 using Ursa.Controls;
 using Ursa.Controls.Options;
-using Ursa.Demo.Dialogs;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public partial class DrawerDemoViewModel : ObservableObject
 {

@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Ursa.Controls;
 
-namespace Ursa.Demo.Views;
+namespace KeeZ.WPF.Views;
 
 public partial class MainWindow : UrsaWindow
 {

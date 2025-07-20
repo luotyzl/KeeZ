@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public class TagInputDemoViewModel: ViewModelBase
 {

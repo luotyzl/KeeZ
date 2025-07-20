@@ -2,7 +2,7 @@ using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 
-namespace Ursa.Demo.Converters;
+namespace KeeZ.WPF.Converters;
 
 public class ViewLocator: IDataTemplate
 {
@@ -10,7 +10,7 @@ public class ViewLocator: IDataTemplate
     {
         if (param is null) return null;
         var name = param.GetType().Name.Replace("ViewModel", "");
-        var type = Type.GetType("Ursa.Demo.Pages."+name);
+        var type = Type.GetType("KeeZ.WPF.Pages."+name);
         if (type != null)
         {
             return (Control)Activator.CreateInstance(type)!;

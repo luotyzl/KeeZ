@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace Ursa.Demo.Pages;
+namespace KeeZ.WPF.Pages;
 
 public partial class SelectionListDemo : UserControl
 {

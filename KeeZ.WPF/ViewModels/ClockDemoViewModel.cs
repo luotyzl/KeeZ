@@ -2,7 +2,7 @@
 using System.Timers;
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public partial class ClockDemoViewModel: ObservableObject, IDisposable
 {

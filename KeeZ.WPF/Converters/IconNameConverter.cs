@@ -6,7 +6,7 @@ using Avalonia.Data.Converters;
 using Avalonia.Media;
 using Avalonia.Metadata;
 
-namespace Ursa.Demo.Converters;
+namespace KeeZ.WPF.Converters;
 
 public class IconNameConverter: IValueConverter
 {

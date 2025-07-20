@@ -5,7 +5,7 @@ using Avalonia.Data.Converters;
 using Avalonia.Media;
 using Ursa.Controls;
 
-namespace Ursa.Demo.Converters;
+namespace KeeZ.WPF.Converters;
 
 public class TimelineIconConverter: IValueConverter
 {

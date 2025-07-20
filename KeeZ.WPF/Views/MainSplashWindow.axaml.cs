@@ -2,10 +2,10 @@ using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using KeeZ.WPF.ViewModels;
 using Ursa.Controls;
-using Ursa.Demo.ViewModels;
 
-namespace Ursa.Demo.Views;
+namespace KeeZ.WPF.Views;
 
 public partial class MainSplashWindow : SplashWindow
 {

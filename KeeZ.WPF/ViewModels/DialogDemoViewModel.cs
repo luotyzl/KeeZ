@@ -7,10 +7,10 @@ using Avalonia;
 using Avalonia.Controls;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using KeeZ.WPF.Dialogs;
 using Ursa.Controls;
-using Ursa.Demo.Dialogs;
 
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public partial class DialogDemoViewModel: ObservableObject
 {

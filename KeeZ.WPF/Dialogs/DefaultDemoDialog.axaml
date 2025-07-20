@@ -1,9 +1,9 @@
 <UserControl
-    x:Class="Ursa.Demo.Dialogs.DefaultDemoDialog"
+    x:Class="KeeZ.WPF.Dialogs.DefaultDemoDialog"
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:dialogs="clr-namespace:Ursa.Demo.Dialogs"
+    xmlns:dialogs="clr-namespace:KeeZ.WPF.Dialogs"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:u="https://irihi.tech/ursa"
     MinWidth="400"

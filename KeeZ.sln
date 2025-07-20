@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa", "Ursa\Ursa.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa.Themes.Semi", "Ursa.Themes.Semi\Ursa.Themes.Semi.csproj", "{FFB0F45D-B447-41CC-8833-02FF2FA371F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa.Demo", "KeeZ.WPF\Ursa.Demo.csproj", "{AA9F4E34-3A3D-4B8A-977E-AD31B1F4F480}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.WPF", "KeeZ.WPF\KeeZ.WPF.csproj", "{AA9F4E34-3A3D-4B8A-977E-AD31B1F4F480}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.App", "KeeZ.App\KeeZ.App.csproj", "{F6387E52-F766-4484-AC6E-6C7554041E8B}"
 EndProject

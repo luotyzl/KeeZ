@@ -1,8 +1,8 @@
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using Ursa.Demo.ViewModels;
+using KeeZ.WPF.ViewModels;
 
-namespace Ursa.Demo.Converters;
+namespace KeeZ.WPF.Converters;
 
 public class MenuDataTemplateSelector: IDataTemplate
 {

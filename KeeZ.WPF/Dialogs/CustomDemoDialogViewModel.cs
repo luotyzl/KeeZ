@@ -7,7 +7,7 @@ using CommunityToolkit.Mvvm.Input;
 using Irihi.Avalonia.Shared.Contracts;
 using Ursa.Controls;
 
-namespace Ursa.Demo.Dialogs;
+namespace KeeZ.WPF.Dialogs;
 
 public partial class CustomDemoDialogViewModel : ObservableObject, IDialogContext
 {

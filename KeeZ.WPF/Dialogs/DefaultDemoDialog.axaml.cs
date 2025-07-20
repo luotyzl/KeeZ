@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace Ursa.Demo.Dialogs;
+namespace KeeZ.WPF.Dialogs;
 
 public partial class DefaultDemoDialog : UserControl
 {

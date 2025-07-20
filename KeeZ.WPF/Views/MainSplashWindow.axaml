@@ -1,5 +1,5 @@
 <u:SplashWindow
-    x:Class="Ursa.Demo.Views.MainSplashWindow"
+    x:Class="KeeZ.WPF.Views.MainSplashWindow"
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:iri="https://irihi.tech/shared"

@@ -1,4 +1,4 @@
-namespace Ursa.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public class LoadingDemoViewModel: ViewModelBase
 {
