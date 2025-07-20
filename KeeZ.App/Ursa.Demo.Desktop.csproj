@@ -26,6 +26,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Ursa.Demo\Ursa.Demo.csproj"/>
+        <ProjectReference Include="..\KeeZ.WPF\Ursa.Demo.csproj"/>
     </ItemGroup>
 </Project>
