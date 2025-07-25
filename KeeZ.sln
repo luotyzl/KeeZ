@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35209.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{9D34CC2C-9BFA-4138-BA5A-CD3744F9B589}"
-	ProjectSection(SolutionItems) = preProject
-		demo\Directory.Build.props = demo\Directory.Build.props
-		src\Package.props = src\Package.props
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa", "Ursa\Ursa.csproj", "{9F97115D-8264-4BE1-87D4-DC59A0DD1234}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa.Themes.Semi", "Ursa.Themes.Semi\Ursa.Themes.Semi.csproj", "{FFB0F45D-B447-41CC-8833-02FF2FA371F7}"

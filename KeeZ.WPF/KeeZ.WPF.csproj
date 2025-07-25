@@ -30,4 +30,11 @@
     <ItemGroup>
       <Folder Include="Models\" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Pages\ListKeys.axaml.cs">
+        <DependentUpon>ListKeys.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
 </Project>

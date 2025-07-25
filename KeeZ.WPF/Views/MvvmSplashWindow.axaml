@@ -19,12 +19,6 @@
         VerticalAlignment="Center"
         ColumnDefinitions="Auto, Auto"
         RowDefinitions="Auto, Auto, Auto">
-        <iri:IrihiLogo
-            Grid.Row="0"
-            Grid.Column="0"
-            Width="64"
-            Margin="0,0,16,0"
-            Fill="{DynamicResource SemiColorText2}" />
         <StackPanel Grid.Row="0" Grid.Column="1">
             <TextBlock
                 Classes="H2"
