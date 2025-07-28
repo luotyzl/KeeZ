@@ -1,3 +1,4 @@
+using System;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
@@ -23,14 +24,12 @@ public partial class App : Application
                 DataContext = new SplashViewModel()
             };
         }
-        else if (ApplicationLifetime is ISingleViewApplicationLifetime singleView)
-        {
-            singleView.MainView = new SingleView()
-            {
-                DataContext = new MainViewViewModel(),
-            };
-        }
 
         base.OnFrameworkInitializationCompleted();
+    }
+
+    private void TrayMenuItem_Exit_OnClick(object? sender, EventArgs e)
+    {
+        
     }
 }

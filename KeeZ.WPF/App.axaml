@@ -18,4 +18,15 @@
             </Style>
         </Style>
     </Application.Styles>
+    <TrayIcon.Icons>
+        <TrayIcons>
+            <TrayIcon Icon="/Assets/favicon.ico" MacOSProperties.IsTemplateIcon="true" ToolTipText="KeeZ">
+                <TrayIcon.Menu>
+                    <NativeMenu>
+                        <NativeMenuItem Header="Exit" Click="TrayMenuItem_Exit_OnClick" />
+                    </NativeMenu>
+                </TrayIcon.Menu>
+            </TrayIcon>
+        </TrayIcons>
+    </TrayIcon.Icons>
 </Application>

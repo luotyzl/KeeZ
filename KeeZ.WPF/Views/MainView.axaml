@@ -26,7 +26,7 @@
                 <Setter Property="Effect" Value="blur(10)" />
             </Style>
         </Panel.Styles>
-        <Grid Classes.Blur="{Binding $parent[u:UrsaWindow].(u:OverlayDialogHost.IsInModalStatus)}" ColumnDefinitions="Auto, *">
+        <Grid Classes.Blur="{Binding $parent[u:UrsaWindow].(u:OverlayDialogHost.IsInModalStatus)}" ColumnDefinitions="Auto, *,*">
             <Border
                 Padding="8,4"
                 VerticalAlignment="Stretch"
@@ -99,13 +99,25 @@
                     </u:NavMenu.Footer>
                 </u:NavMenu>
             </Border>
-            <ContentControl
-                Grid.Column="1"
-                Margin="12,36,12,12"
-                Content="{Binding Content}">
-                <ContentControl.ContentTemplate>
-                    <converters:ViewLocator />
-                </ContentControl.ContentTemplate>
+            <ContentControl Grid.Column="1">
+                <Border Padding="8,4"
+                        VerticalAlignment="Stretch"
+                        Theme="{DynamicResource CardBorder}">
+                    <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                        <Button HorizontalAlignment="Left"  Content="+" />
+                        <TextBlock Text="abs" />
+                    </StackPanel>
+                </Border>
+            </ContentControl>
+            <ContentControl Grid.Column="2">
+                <Border Padding="8,4"
+                        VerticalAlignment="Stretch"
+                        Theme="{DynamicResource CardBorder}">
+                    <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                        <Button HorizontalAlignment="Left"  Content="+" />
+                        <TextBlock Text="abs" />
+                    </StackPanel>
+                </Border>
             </ContentControl>
         </Grid>
     </Panel>
