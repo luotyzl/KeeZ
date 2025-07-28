@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35209.166
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa", "Ursa\Ursa.csproj", "{9F97115D-8264-4BE1-87D4-DC59A0DD1234}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia", "Semi.Avalonia\Semi.Avalonia.csproj", "{061DCE97-0939-499A-AA14-2BD92B2AB7BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ursa.Themes.Semi", "Ursa.Themes.Semi\Ursa.Themes.Semi.csproj", "{FFB0F45D-B447-41CC-8833-02FF2FA371F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.App", "KeeZ.App\KeeZ.App.csproj", "{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.WPF", "KeeZ.WPF\KeeZ.WPF.csproj", "{AA9F4E34-3A3D-4B8A-977E-AD31B1F4F480}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.App", "KeeZ.App\KeeZ.App.csproj", "{F6387E52-F766-4484-AC6E-6C7554041E8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.Demo", "Semi.Avalonia.Demo\Semi.Avalonia.Demo.csproj", "{B4572956-A1EF-42D3-904D-D85124894EAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,26 +15,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F97115D-8264-4BE1-87D4-DC59A0DD1234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F97115D-8264-4BE1-87D4-DC59A0DD1234}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F97115D-8264-4BE1-87D4-DC59A0DD1234}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F97115D-8264-4BE1-87D4-DC59A0DD1234}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FFB0F45D-B447-41CC-8833-02FF2FA371F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FFB0F45D-B447-41CC-8833-02FF2FA371F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FFB0F45D-B447-41CC-8833-02FF2FA371F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFB0F45D-B447-41CC-8833-02FF2FA371F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA9F4E34-3A3D-4B8A-977E-AD31B1F4F480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA9F4E34-3A3D-4B8A-977E-AD31B1F4F480}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA9F4E34-3A3D-4B8A-977E-AD31B1F4F480}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA9F4E34-3A3D-4B8A-977E-AD31B1F4F480}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6387E52-F766-4484-AC6E-6C7554041E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6387E52-F766-4484-AC6E-6C7554041E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6387E52-F766-4484-AC6E-6C7554041E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6387E52-F766-4484-AC6E-6C7554041E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061DCE97-0939-499A-AA14-2BD92B2AB7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061DCE97-0939-499A-AA14-2BD92B2AB7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061DCE97-0939-499A-AA14-2BD92B2AB7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061DCE97-0939-499A-AA14-2BD92B2AB7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4572956-A1EF-42D3-904D-D85124894EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4572956-A1EF-42D3-904D-D85124894EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4572956-A1EF-42D3-904D-D85124894EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4572956-A1EF-42D3-904D-D85124894EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CA41ED3-2CED-40CC-AA21-28C3B42B1E86}
 	EndGlobalSection
 EndGlobal
