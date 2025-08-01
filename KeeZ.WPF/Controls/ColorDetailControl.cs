@@ -4,9 +4,9 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using Avalonia.Media;
-using Semi.Avalonia.Demo.Converters;
+using KeeZ.WPF.Converters;
 
-namespace Semi.Avalonia.Demo.Controls;
+namespace KeeZ.WPF.Controls;
 
 public class ColorDetailControl : TemplatedControl
 {

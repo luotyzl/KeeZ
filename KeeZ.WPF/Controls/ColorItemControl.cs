@@ -2,9 +2,9 @@ using Avalonia;
 using Avalonia.Controls.Primitives;
 using Avalonia.Input;
 using CommunityToolkit.Mvvm.Messaging;
-using Semi.Avalonia.Demo.ViewModels;
+using KeeZ.WPF.ViewModels;
 
-namespace Semi.Avalonia.Demo.Controls;
+namespace KeeZ.WPF.Controls;
 
 public class ColorItemControl : TemplatedControl
 {

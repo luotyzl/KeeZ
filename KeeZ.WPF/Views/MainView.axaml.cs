@@ -9,8 +9,9 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Styling;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Semi.Avalonia;
 
-namespace Semi.Avalonia.Demo.Views;
+namespace KeeZ.WPF.Views;
 
 public partial class MainView : UserControl
 {

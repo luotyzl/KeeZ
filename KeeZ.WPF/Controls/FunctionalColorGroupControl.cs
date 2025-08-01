@@ -2,7 +2,7 @@ using System.Collections;
 using Avalonia;
 using Avalonia.Controls.Primitives;
 
-namespace Semi.Avalonia.Demo.Controls;
+namespace KeeZ.WPF.Controls;
 
 public class FunctionalColorGroupControl : TemplatedControl
 {

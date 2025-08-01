@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace Semi.Avalonia.Demo.Views;
+namespace KeeZ.WPF.Views;
 
 public partial class MainWindow : Window
 {

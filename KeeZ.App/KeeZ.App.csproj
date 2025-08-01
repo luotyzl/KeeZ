@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Semi.Avalonia.Demo\Semi.Avalonia.Demo.csproj" />
+      <ProjectReference Include="..\KeeZ.WPF\KeeZ.WPF.csproj" />
     </ItemGroup>
 
 

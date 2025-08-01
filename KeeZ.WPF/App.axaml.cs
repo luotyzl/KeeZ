@@ -2,10 +2,11 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
-using Semi.Avalonia.Demo.ViewModels;
-using Semi.Avalonia.Demo.Views;
+using KeeZ.WPF.ViewModels;
+using KeeZ.WPF.Views;
+using Semi.Avalonia;
 
-namespace Semi.Avalonia.Demo;
+namespace KeeZ.WPF;
 
 public partial class App : Application
 {

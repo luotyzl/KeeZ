@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia", "Semi.Avalo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.App", "KeeZ.App\KeeZ.App.csproj", "{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.Demo", "Semi.Avalonia.Demo\Semi.Avalonia.Demo.csproj", "{B4572956-A1EF-42D3-904D-D85124894EAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.WPF", "KeeZ.WPF\KeeZ.WPF.csproj", "{B4572956-A1EF-42D3-904D-D85124894EAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

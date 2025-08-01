@@ -1,11 +1,11 @@
 <Application
-    x:Class="Semi.Avalonia.Demo.App"
+    x:Class="KeeZ.WPF.App"
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     x:CompileBindings="True"
     x:DataType="viewModels:ApplicationViewModel"
     xmlns:semi="https://irihi.tech/semi"
-    xmlns:viewModels="clr-namespace:Semi.Avalonia.Demo.ViewModels">
+    xmlns:viewModels="clr-namespace:KeeZ.WPF.ViewModels">
     <Application.Styles>
         <semi:SemiPopupAnimations />
     </Application.Styles>
@@ -18,7 +18,7 @@
     </Application.Resources>
     <TrayIcon.Icons>
         <TrayIcons>
-            <TrayIcon Icon="/Assets/irihi.ico" MacOSProperties.IsTemplateIcon="true" ToolTipText="Semi Avalonia Demo">
+            <TrayIcon Icon="/Assets/irihi.ico" MacOSProperties.IsTemplateIcon="true" ToolTipText="KeeZ.WPF">
                 <TrayIcon.Menu>
                     <NativeMenu>
                         <NativeMenuItem Header="Exit" Command="{Binding ExitCommand}" />

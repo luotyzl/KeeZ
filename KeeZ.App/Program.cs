@@ -26,7 +26,7 @@ static class Program
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp()
-        => AppBuilder.Configure<Semi.Avalonia.Demo.App>()
+        => AppBuilder.Configure<KeeZ.WPF.App>()
             .UseManagedSystemDialogs()
             .UsePlatformDetect()
             .With(new Win32PlatformOptions())

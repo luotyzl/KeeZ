@@ -3,7 +3,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
-namespace Semi.Avalonia.Demo.ViewModels;
+namespace KeeZ.WPF.ViewModels;
 
 public partial class ApplicationViewModel : ObservableObject
 {

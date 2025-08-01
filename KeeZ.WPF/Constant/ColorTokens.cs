@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Semi.Avalonia.Demo.Constant;
+namespace KeeZ.WPF.Constant;
 
 public static class ColorTokens
 {

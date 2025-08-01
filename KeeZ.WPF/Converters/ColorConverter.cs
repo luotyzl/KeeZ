@@ -1,7 +1,7 @@
 ﻿using Avalonia.Data.Converters;
 using Avalonia.Media;
 
-namespace Semi.Avalonia.Demo.Converters;
+namespace KeeZ.WPF.Converters;
 
 public static class ColorConverter
 {
