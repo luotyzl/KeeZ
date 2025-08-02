@@ -24,8 +24,6 @@ public partial class MainView : UserControl
 
 public partial class MainViewModel : ObservableObject
 {
-    public string DocumentationUrl => "https://docs.irihi.tech/semi";
-    public string RepoUrl => "https://github.com/irihitech/Semi.Avalonia";
     public IReadOnlyList<MenuItemViewModel> MenuItems { get; }
 
     public MainViewModel()
