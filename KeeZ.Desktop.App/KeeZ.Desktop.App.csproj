@@ -29,6 +29,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Semi.Avalonia.Demo\Semi.Avalonia.Demo.csproj"/>
+        <ProjectReference Include="..\KeeZ.Avalonia.Core\KeeZ.Avalonia.Core.csproj"/>
     </ItemGroup>
 </Project>
