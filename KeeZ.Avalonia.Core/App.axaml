@@ -22,7 +22,7 @@
     </Application.Resources>
     <TrayIcon.Icons>
         <TrayIcons>
-            <TrayIcon Icon="/Assets/irihi.ico" MacOSProperties.IsTemplateIcon="true" ToolTipText="Semi Avalonia Demo">
+            <TrayIcon Icon="/Assets/favicon.ico" MacOSProperties.IsTemplateIcon="true" ToolTipText="Semi Avalonia Demo">
                 <TrayIcon.Menu>
                     <NativeMenu>
                         <NativeMenuItem Header="Exit" Command="{Binding ExitCommand}" />

@@ -31,6 +31,7 @@
     <Grid RowDefinitions="Auto, *">
         <Border
             Grid.Row="0"
+            IsVisible="False"
             Margin="8"
             Padding="12,4"
             Theme="{DynamicResource CardBorder}">

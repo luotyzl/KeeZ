@@ -16,11 +16,11 @@
                     <TextBlock Text="Some content" />
                 </HeaderedContentControl>
                 <HeaderedContentControl Header="This is the image header!">
-                    <Image Source="/Assets/WORLD.png" />
+                    <TextBlock Text="Image content placeholder" />
                 </HeaderedContentControl>
                 <HeaderedContentControl>
                     <HeaderedContentControl.Header>
-                        <Image Source="/Assets/WORLD.png" />
+                        <TextBlock Text="Image Header" />
                     </HeaderedContentControl.Header>
                     <TextBlock Text="This is the content. But the header can also be non textual" />
                 </HeaderedContentControl>
@@ -33,11 +33,11 @@
                 <HeaderedContentControl.Header>
                     <Panel>
                         <SelectableTextBlock Text="Semi Design" />
-                        <HyperlinkButton HorizontalAlignment="Right" Content="¸ü¶à" />
+                        <HyperlinkButton HorizontalAlignment="Right" Content="ï¿½ï¿½ï¿½ï¿½" />
                     </Panel>
                 </HeaderedContentControl.Header>
                 <HeaderedContentControl.Content>
-                    <SelectableTextBlock Text="Semi Design ÊÇÓÉ»¥ÓéÉçÇøÇ°¶ËÍÅ¶ÓÓë UED ÍÅ¶Ó¹²Í¬Éè¼Æ¿ª·¢²¢Î¬»¤µÄÉè¼ÆÏµÍ³¡£Éè¼ÆÏµÍ³°üº¬Éè¼ÆÓïÑÔÒÔ¼°Ò»ÕûÌ×¿É¸´ÓÃµÄÇ°¶Ë×é¼þ£¬°ïÖúÉè¼ÆÊ¦Óë¿ª·¢Õß¸üÈÝÒ×µØ´òÔì¸ßÖÊÁ¿µÄ¡¢ÓÃ»§ÌåÑéÒ»ÖÂµÄ¡¢·ûºÏÉè¼Æ¹æ·¶µÄ Web Ó¦ÓÃ¡£" />
+                    <SelectableTextBlock Text="Semi Design ï¿½ï¿½ï¿½É»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Å¶ï¿½ï¿½ï¿½ UED ï¿½Å¶Ó¹ï¿½Í¬ï¿½ï¿½Æ¿ï¿½ï¿½ï¿½ï¿½ï¿½Î¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½Ò»ï¿½ï¿½ï¿½×¿É¸ï¿½ï¿½Ãµï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¦ï¿½ë¿ªï¿½ï¿½ï¿½ß¸ï¿½ï¿½ï¿½ï¿½×µØ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ÂµÄ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¹æ·¶ï¿½ï¿½ Web Ó¦ï¿½Ã¡ï¿½" />
                 </HeaderedContentControl.Content>
             </HeaderedContentControl>
         </StackPanel>

@@ -133,11 +133,11 @@
                                         </Style.Animations>
                                     </Style>
                                 </Panel.Styles>
-                                <Image
-                                    Source="/Assets/WORLD.png"
+                                <Rectangle
                                     Name="AlbumCover"
                                     Width="200"
-                                    Height="200" />
+                                    Height="200"
+                                    Fill="Gray" />
                                 <Arc
                                     Width="290"
                                     Height="290"
@@ -231,11 +231,11 @@
                                         </Style.Animations>
                                     </Style>
                                 </Panel.Styles>
-                                <Image
-                                    Source="/Assets/WORLD.png"
+                                <Rectangle
                                     Name="AlbumCover2"
                                     Width="200"
-                                    Height="200" />
+                                    Height="200"
+                                    Fill="Gray" />
                                 <Arc
                                     Width="290"
                                     Height="290"
