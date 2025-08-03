@@ -3,7 +3,7 @@ using Avalonia;
 using Avalonia.Dialogs;
 using Avalonia.Media;
 
-namespace Semi.Avalonia.Demo.Desktop;
+namespace KeeZ.Desktop.App;
 
 sealed class Program
 {
@@ -26,7 +26,7 @@ sealed class Program
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp()
-        => AppBuilder.Configure<App>()
+        => AppBuilder.Configure<Semi.Avalonia.Demo.App>()
             .UseManagedSystemDialogs()
             .UsePlatformDetect()
             .With(new Win32PlatformOptions())

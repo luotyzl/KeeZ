@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia", "Semi.Avalo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.Demo", "Semi.Avalonia.Demo\Semi.Avalonia.Demo.csproj", "{554F27E3-4FF5-405F-BBDE-5A05D02293A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.Demo.Desktop", "Semi.Avalonia.Demo.Desktop\Semi.Avalonia.Demo.Desktop.csproj", "{1C8A2A7D-36E1-4BEC-A09A-CA8C88F4DCFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.Desktop.App", "KeeZ.Desktop.App\KeeZ.Desktop.App.csproj", "{1C8A2A7D-36E1-4BEC-A09A-CA8C88F4DCFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
