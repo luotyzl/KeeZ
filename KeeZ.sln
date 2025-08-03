@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia", "Semi.Avalonia\Semi.Avalonia.csproj", "{061DCE97-0939-499A-AA14-2BD92B2AB7BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.ColorPicker", "Semi.Avalonia.ColorPicker\Semi.Avalonia.ColorPicker.csproj", "{76D44D47-5581-430C-924A-88B132F262B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.App", "KeeZ.App\KeeZ.App.csproj", "{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.DataGrid", "Semi.Avalonia.DataGrid\Semi.Avalonia.DataGrid.csproj", "{98CE4BA7-CD31-461E-872B-A7F43F8E22FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeeZ.WPF", "KeeZ.WPF\KeeZ.WPF.csproj", "{B4572956-A1EF-42D3-904D-D85124894EAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.TreeDataGrid", "Semi.Avalonia.TreeDataGrid\Semi.Avalonia.TreeDataGrid.csproj", "{BBB3F215-7C49-46D3-9F45-44F59D213827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia", "Semi.Avalonia\Semi.Avalonia.csproj", "{5F6B0292-DDF5-4F0A-AEB2-AA740CA03852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.Demo", "Semi.Avalonia.Demo\Semi.Avalonia.Demo.csproj", "{554F27E3-4FF5-405F-BBDE-5A05D02293A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semi.Avalonia.Demo.Desktop", "Semi.Avalonia.Demo.Desktop\Semi.Avalonia.Demo.Desktop.csproj", "{1C8A2A7D-36E1-4BEC-A09A-CA8C88F4DCFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{061DCE97-0939-499A-AA14-2BD92B2AB7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{061DCE97-0939-499A-AA14-2BD92B2AB7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{061DCE97-0939-499A-AA14-2BD92B2AB7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{061DCE97-0939-499A-AA14-2BD92B2AB7BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF3F9EB7-AF74-4F49-BBD4-6A67E482900C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4572956-A1EF-42D3-904D-D85124894EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4572956-A1EF-42D3-904D-D85124894EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4572956-A1EF-42D3-904D-D85124894EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4572956-A1EF-42D3-904D-D85124894EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D44D47-5581-430C-924A-88B132F262B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D44D47-5581-430C-924A-88B132F262B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D44D47-5581-430C-924A-88B132F262B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D44D47-5581-430C-924A-88B132F262B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CE4BA7-CD31-461E-872B-A7F43F8E22FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CE4BA7-CD31-461E-872B-A7F43F8E22FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CE4BA7-CD31-461E-872B-A7F43F8E22FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CE4BA7-CD31-461E-872B-A7F43F8E22FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB3F215-7C49-46D3-9F45-44F59D213827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB3F215-7C49-46D3-9F45-44F59D213827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB3F215-7C49-46D3-9F45-44F59D213827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB3F215-7C49-46D3-9F45-44F59D213827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6B0292-DDF5-4F0A-AEB2-AA740CA03852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6B0292-DDF5-4F0A-AEB2-AA740CA03852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6B0292-DDF5-4F0A-AEB2-AA740CA03852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6B0292-DDF5-4F0A-AEB2-AA740CA03852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554F27E3-4FF5-405F-BBDE-5A05D02293A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554F27E3-4FF5-405F-BBDE-5A05D02293A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554F27E3-4FF5-405F-BBDE-5A05D02293A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554F27E3-4FF5-405F-BBDE-5A05D02293A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8A2A7D-36E1-4BEC-A09A-CA8C88F4DCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8A2A7D-36E1-4BEC-A09A-CA8C88F4DCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8A2A7D-36E1-4BEC-A09A-CA8C88F4DCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8A2A7D-36E1-4BEC-A09A-CA8C88F4DCFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

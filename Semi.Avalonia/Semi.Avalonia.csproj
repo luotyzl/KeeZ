@@ -1,4 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
     <PropertyGroup>
         <TargetFrameworks>netstandard2.0;net6.0;net8.0</TargetFrameworks>
         <Nullable>enable</Nullable>
@@ -10,10 +11,13 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageIcon>irihi.png</PackageIcon>
         <PackageProjectUrl>https://github.com/irihitech/Semi.Avalonia</PackageProjectUrl>
+        <AvaloniaVersion>11.2.1</AvaloniaVersion>
     </PropertyGroup>
+
 
     <PropertyGroup>
         <Title>Semi.Avalonia</Title>
+        <PackageReleaseNotes>Update to Semi.Avalonia 11.2.1.9</PackageReleaseNotes>
     </PropertyGroup>
 
     <PropertyGroup Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">
@@ -21,7 +25,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="11.3.2" />
+        <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)"/>
     </ItemGroup>
 
 </Project>
