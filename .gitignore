@@ -6,3 +6,4 @@ Keepass.App/.vs
 **/obj
 **/bin
 *.user
+.claude/
