@@ -15,21 +15,13 @@
         <viewModels:PaletteDemoViewModel />
     </Design.DataContext>
     <SplitView
-        Name="splitView"
-        CompactPaneLength="50"
-        DisplayMode="CompactInline"
-        IsPaneOpen="{Binding #toggle.IsChecked, Mode=TwoWay}"
+        DisplayMode="Inline"
+        IsPaneOpen="True"
         OpenPaneLength="300"
-        PanePlacement="Right">
+        PanePlacement="Left">
         <SplitView.Pane>
             <StackPanel>
-                <ToggleSwitch
-                    Name="toggle"
-                    HorizontalAlignment="Right"
-                    IsChecked="True"
-                    Theme="{DynamicResource IconBorderlessToggleSwitch}"
-                    Content="{StaticResource SemiIconSidebar}" />
-                <Border IsVisible="{Binding #splitView.IsPaneOpen}" Theme="{DynamicResource CardBorder}">
+                <Border IsVisible="True" Theme="{DynamicResource CardBorder}">
                     <Panel>
                         <TextBlock
                             IsVisible="{Binding SelectedColor, Converter={x:Static ObjectConverters.IsNull}}"
@@ -52,79 +44,6 @@
                         Classes="H3"
                         Text="Basic Colors"
                         Theme="{DynamicResource TitleTextBlock}" />
-                    <TabControl>
-                        <TabItem Header="Light">
-                            <ItemsControl Margin="16" ItemsSource="{Binding LightLists}">
-                                <ItemsControl.ItemsPanel>
-                                    <ItemsPanelTemplate>
-                                        <WrapPanel Orientation="Horizontal" />
-                                    </ItemsPanelTemplate>
-                                </ItemsControl.ItemsPanel>
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate x:DataType="viewModels:ColorListViewModel">
-                                        <ItemsControl Margin="4,0" ItemsSource="{Binding Color}">
-                                            <ItemsControl.ItemTemplate>
-                                                <DataTemplate x:DataType="viewModels:ColorItemViewModel">
-                                                    <controls:ColorItemControl
-                                                        Background="{Binding Brush}"
-                                                        ColorName="{Binding ColorDisplayName}"
-                                                        Foreground="{Binding TextBrush}"
-                                                        Hex="{Binding Hex}" />
-                                                </DataTemplate>
-                                            </ItemsControl.ItemTemplate>
-                                        </ItemsControl>
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
-                        </TabItem>
-                        <TabItem Header="Dark">
-                            <ItemsControl Margin="16" ItemsSource="{Binding DarkLists}">
-                                <ItemsControl.ItemsPanel>
-                                    <ItemsPanelTemplate>
-                                        <WrapPanel Orientation="Horizontal" />
-                                    </ItemsPanelTemplate>
-                                </ItemsControl.ItemsPanel>
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate x:DataType="viewModels:ColorListViewModel">
-                                        <ItemsControl Margin="4,0" ItemsSource="{Binding Color}">
-                                            <ItemsControl.ItemTemplate>
-                                                <DataTemplate x:DataType="viewModels:ColorItemViewModel">
-                                                    <controls:ColorItemControl
-                                                        Background="{Binding Brush}"
-                                                        ColorName="{Binding ColorDisplayName}"
-                                                        Foreground="{Binding TextBrush}"
-                                                        Hex="{Binding Hex}" />
-                                                </DataTemplate>
-                                            </ItemsControl.ItemTemplate>
-                                        </ItemsControl>
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
-                        </TabItem>
-                    </TabControl>
-
-                    <ItemsControl ItemsSource="{Binding FunctionalColors}">
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate>
-                                <controls:FunctionalColorGroupControl
-                                    Title="{Binding Title}"
-                                    DarkColors="{Binding DarkColors}"
-                                    LightColors="{Binding LightColors}" />
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-
-                    <ItemsControl ItemsSource="{Binding Shadows}">
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate>
-                                <controls:ShadowGroupControl
-                                    Title="{Binding Title}"
-                                    DarkShadows="{Binding DarkShadows}"
-                                    LightShadows="{Binding LightShadows}" />
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-
                 </StackPanel>
             </ScrollViewer>
         </SplitView.Content>

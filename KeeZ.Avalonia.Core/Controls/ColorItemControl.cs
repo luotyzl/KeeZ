@@ -34,9 +34,6 @@ public class ColorItemControl : TemplatedControl
             case ColorItemViewModel colorItemViewModel:
                 WeakReferenceMessenger.Default.Send(colorItemViewModel);
                 break;
-            case ColorResource colorResource:
-                WeakReferenceMessenger.Default.Send(colorResource);
-                break;
         }
     }
 }

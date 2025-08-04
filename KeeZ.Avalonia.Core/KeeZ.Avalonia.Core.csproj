@@ -31,4 +31,8 @@
         <ProjectReference Include="..\Semi.Avalonia.DataGrid\Semi.Avalonia.DataGrid.csproj"/>
         <ProjectReference Include="..\Semi.Avalonia.TreeDataGrid\Semi.Avalonia.TreeDataGrid.csproj"/>
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ViewModels\TreeDataGridDemo\" />
+    </ItemGroup>
 </Project>
