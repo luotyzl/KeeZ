@@ -6,18 +6,18 @@ using KeeZ.Avalonia.Core.ViewModels;
 
 namespace KeeZ.Avalonia.Core.Pages;
 
-public partial class PaletteDemo : UserControl
+public partial class Passwords : UserControl
 {
-    public PaletteDemo()
+    public Passwords()
     {
         InitializeComponent();
-        this.DataContext = new PaletteDemoViewModel();
+        this.DataContext = new PasswordsViewModel();
     }
 
     protected override async void OnApplyTemplate(TemplateAppliedEventArgs e)
     {
         base.OnApplyTemplate(e);
-        PaletteDemoViewModel? vm = this.DataContext as PaletteDemoViewModel;
+        PasswordsViewModel? vm = this.DataContext as PasswordsViewModel;
         await Dispatcher.UIThread.InvokeAsync(() => { vm?.InitializeResources(); });
     }
 

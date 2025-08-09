@@ -50,7 +50,7 @@
                                         <DataGridTemplateColumn.CellTemplate>
                                             <DataTemplate DataType="viewModels:ShadowItemViewModel">
                                                 <Button
-                                                    Command="{Binding $parent[pages:PaletteDemo].Copy}"
+                                                    Command="{Binding $parent[pages:Passwords].Copy}"
                                                     CommandParameter="{Binding CopyText}"
                                                     Theme="{DynamicResource  IconBorderlessButton}"
                                                     Content="{StaticResource SemiIconCopy}" />
@@ -93,7 +93,7 @@
                                         <DataGridTemplateColumn.CellTemplate>
                                             <DataTemplate DataType="viewModels:ShadowItemViewModel">
                                                 <Button
-                                                    Command="{Binding $parent[pages:PaletteDemo].Copy}"
+                                                    Command="{Binding $parent[pages:Passwords].Copy}"
                                                     CommandParameter="{Binding CopyText}"
                                                     Theme="{DynamicResource  IconBorderlessButton}"
                                                     Content="{StaticResource SemiIconCopy}" />

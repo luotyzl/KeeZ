@@ -12,7 +12,7 @@ using Semi.Avalonia.Tokens.Palette;
 
 namespace KeeZ.Avalonia.Core.ViewModels;
 
-public partial class PaletteDemoViewModel : ObservableObject
+public partial class PasswordsViewModel : ObservableObject
 {
     private readonly string[] _predefinedColorNames =
     [
@@ -32,7 +32,7 @@ public partial class PaletteDemoViewModel : ObservableObject
     public ObservableCollection<FunctionalColorGroupViewModel> FunctionalColors { get; set; } = [];
     public ObservableCollection<ShadowGroupViewModel> Shadows { get; set; } = [];
 
-    public PaletteDemoViewModel()
+    public PasswordsViewModel()
     {
         _lightResourceDictionary = new Light();
         _darkResourceDictionary = new Dark();

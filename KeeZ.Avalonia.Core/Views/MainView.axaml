@@ -95,34 +95,34 @@
                 </ItemsPanelTemplate>
             </TabControl.ItemsPanel>
             <TabItem Header="All Entities">
-                <pages:PaletteDemo />
+                <pages:Passwords />
             </TabItem>
             <TabItem Header="2FA Codes">
-                <pages:PaletteDemo />
+                <pages:Passwords />
             </TabItem>
             <TabItem
                 Theme="{DynamicResource CategoryTabItem}"
                 Header="Tags" />
             <TabItem Header="Palette">
-                <pages:PaletteDemo />
+                <pages:Passwords />
             </TabItem>
             <TabItem
                 Theme="{DynamicResource CategoryTabItem}"
                 Header="Groups" />
             <TabItem Header="Recycle Bin">
-                <pages:PaletteDemo />
+                <pages:Passwords />
             </TabItem>
             <TabItem
                 Theme="{DynamicResource CategoryTabItem}"
                 Header="Audit" />
             <TabItem Header="Duplicated">
-                <pages:PaletteDemo />
+                <pages:Passwords />
             </TabItem>
             <TabItem Header="Weak/Entropy">
-                <pages:PaletteDemo />
+                <pages:Passwords />
             </TabItem>
             <TabItem Header="All Issues">
-                <pages:PaletteDemo />
+                <pages:Passwords />
             </TabItem>
             
         </TabControl>
