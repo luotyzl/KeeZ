@@ -7,3 +7,5 @@ Keepass.App/.vs
 **/bin
 *.user
 .claude/
+/tmp/
+/node_modules/
