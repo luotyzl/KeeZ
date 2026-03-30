@@ -1,0 +1,41 @@
+[package]
+name = "keez"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "keez_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "keez"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon", "image-png"] }
+tauri-plugin-shell = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-global-shortcut = "2"
+tauri-plugin-notification = "2"
+tauri-plugin-process = "2"
+tauri-plugin-updater = "2"
+tauri-plugin-single-instance = "2"
+tauri-plugin-window-state = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+aes = "0.8"
+cbc = { version = "0.1", features = ["alloc"] }
+keyring = "2"
+sha2 = "0.10"
+hex = "0.4"
+rand = "0.8"
+log = "0.4"
+env_logger = "0.11"
+anyhow = "1"
+base64 = "0.22"
+dirs = "5"
