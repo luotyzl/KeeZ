@@ -1,4 +1,4 @@
-use tauri::{AppHandle, Emitter};
+use tauri::{AppHandle, Emitter, Manager};
 use tauri_plugin_global_shortcut::{GlobalShortcutExt, ShortcutState};
 
 /// Register a global keyboard shortcut.  When the shortcut is pressed the
@@ -14,7 +14,7 @@ pub fn register_global_shortcut(
         .on_shortcut(shortcut.as_str(), move |app, _shortcut, event| {
             if event.state == ShortcutState::Pressed {
                 if let Some(window) = app.get_webview_window("main") {
-                    let _ = window.emit(&event_name, ());
+                    let _ = window.emit(&event_name, serde_json::Value::Null);
                 }
             }
         })

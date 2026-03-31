@@ -15,7 +15,7 @@
     "fs:allow-read-file",
     "fs:allow-write-file",
     "fs:allow-exists",
-    "fs:allow-create-dir",
+    "fs:allow-mkdir",
     "fs:allow-app-read-recursive",
     "fs:allow-app-write-recursive",
     "global-shortcut:allow-register",
@@ -23,8 +23,6 @@
     "notification:allow-notify",
     "process:allow-exit",
     "process:allow-restart",
-    "updater:allow-check",
-    "updater:allow-download-and-install",
     "window-state:allow-save-window-state",
     "window-state:allow-restore-state"
   ]

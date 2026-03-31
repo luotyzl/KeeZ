@@ -25,7 +25,7 @@ pub fn hardware_decrypt(
 pub fn hardware_crypto_delete_key() -> Result<(), String> {
     use keyring::Entry;
     let entry = Entry::new("keez", "hardware-crypto-key").map_err(|e| e.to_string())?;
-    entry.delete_credential().map_err(|e| e.to_string())?;
+    entry.delete_password().map_err(|e| e.to_string())?;
     Ok(())
 }
 
@@ -82,5 +82,6 @@ fn decrypt_with_keyring_key(data: &[u8]) -> anyhow::Result<Vec<u8>> {
     let (iv, ciphertext) = data.split_at(16);
 
     let cipher = Aes256CbcDec::new_from_slices(&key, iv)?;
-    Ok(cipher.decrypt_padded_vec_mut::<Pkcs7>(ciphertext)?)
+    cipher.decrypt_padded_vec_mut::<Pkcs7>(ciphertext)
+        .map_err(|e| anyhow::anyhow!("AES decrypt error: {:?}", e))
 }

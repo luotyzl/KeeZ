@@ -88,5 +88,6 @@ fn encrypt_aes256cbc(key: &[u8], iv: &[u8], data: &[u8]) -> anyhow::Result<Vec<u
 fn decrypt_aes256cbc(key: &[u8], iv: &[u8], data: &[u8]) -> anyhow::Result<Vec<u8>> {
     use cbc::cipher::block_padding::Pkcs7;
     let cipher = Aes256CbcDec::new_from_slices(key, iv)?;
-    Ok(cipher.decrypt_padded_vec_mut::<Pkcs7>(data)?)
+    cipher.decrypt_padded_vec_mut::<Pkcs7>(data)
+        .map_err(|e| anyhow::anyhow!("AES decrypt error: {:?}", e))
 }

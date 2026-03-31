@@ -1,7 +1,6 @@
 mod commands;
 mod tray;
 mod shortcuts;
-mod sidecar;
 
 use tauri::{Manager, Emitter};
 
@@ -23,7 +22,6 @@ pub fn run() {
         .plugin(tauri_plugin_global_shortcut::Builder::default().build())
         .plugin(tauri_plugin_notification::init())
         .plugin(tauri_plugin_process::init())
-        .plugin(tauri_plugin_updater::Builder::default().build())
         .invoke_handler(tauri::generate_handler![
             commands::settings::get_settings,
             commands::settings::save_settings,
